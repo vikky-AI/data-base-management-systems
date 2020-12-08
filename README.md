@@ -1,5 +1,6 @@
 # data-base-management-systems
-retrival of specific quires from inbuilt datasets
+basic retrival of specific questions from inbuilt datasets
+different types of models almost covering every type question to a point classification based on alphabet  
 
 ************************************************************************************************
 ** ABOUT: SQl language                                                                        **
