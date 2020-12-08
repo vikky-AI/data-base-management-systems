@@ -283,4 +283,37 @@ SELECT
 FROM
     rental;
     
+   #################################### QUESTION 1 ################################
+# a) Show the list of databases.
+	 SHOW DATABASES;
+# b) Select sakila database.
+	 USE sakila ;
+# c) Show all tables in the sakila database.
+     SHOW TABLES;
+# d) Show each of the columns along with their data types for the actor table.
+     DESCRIBE actor;
+# e) Show the total number of records in the actor table.
+     SELECT 
+    COUNT(*)
+FROM
+    actor;
+# f) What is the first name and last name of all the actors in the actor table ?
+     SELECT 
+    last_name, first_name
+FROM
+    actor;
+
+# g) Insert your first name and middle initial ( in the last name column ) into the actors table.
+
+# there is no table defined with name "actors" in sakila dataset, assuming it to be "actor" table following answer is done
+# THE NAMES FICTIOUS PLEASE NOT THAT
+
+	INSERT INTO `actor` (`first_name`,`last_name`,`actor_id`,`last_update`)
+		VALUES ('divya','divya.l.acct','201','2006-02-15 04:34:33');
+# to check we can use below statement
+SELECT 
+    *
+FROM
+    actor;
+    
   
